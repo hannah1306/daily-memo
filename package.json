@@ -11,6 +11,8 @@
     "@react-native-community/masked-view": "0.1.5",
     "@react-navigation/material-top-tabs": "^5.2.7",
     "@react-navigation/native": "^5.4.2",
+    "@types/redux-persist": "^4.3.1",
+    "@types/styled-components": "^5.1.0",
     "expo": "~36.0.0",
     "react": "~16.9.0",
     "react-dom": "~16.9.0",

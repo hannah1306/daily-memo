@@ -4,9 +4,12 @@ import { Text, View } from 'react-native';
 //React Navigation
 import { NavigationContainer } from '@react-navigation/native';
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
-
 import HomeScreen from './screens/HomeScreen';
 import ChatScreen from './screens/ChatScreen';
+
+//Redux + Redux-Saga + Redux-Persist
+import {} from 'redux-persist'
+import { PersistGate } from 'redux-persist/integration/react'
 
 const Tab = createMaterialTopTabNavigator();
 
